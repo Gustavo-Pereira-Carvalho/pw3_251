@@ -4,13 +4,16 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAmq1aiuD58UQXTQXNPmjiWxPZL8AK51Oc",
-    authDomain: "etec-112.firebaseapp.com",
-    projectId: "etec-112",
-    storageBucket: "etec-112.firebasestorage.app",
-    messagingSenderId: "343776207153",
-    appId: "1:343776207153:web:7f78f736c9e57fd0af5010"
-  };
+
+    apiKey: "AIzaSyBYekALPkplR8_7RnoIbSLIQJrEv5OxjUk",
+    authDomain: "etec25-95021.firebaseapp.com",
+    projectId: "etec25-95021",
+    storageBucket: "etec25-95021.firebasestorage.app",
+    messagingSenderId: "813780328346",
+    appId: "1:813780328346:web:9d52c7357fe37f14b4e423"
+
+    
+};
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
